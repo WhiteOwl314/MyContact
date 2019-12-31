@@ -10,6 +10,7 @@ public class Person {
     @Id
     @GeneratedValue //자동생성
     private Long id;
+
     private String name;
     private int age;
 
